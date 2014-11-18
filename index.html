@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Gravity forms with spectrum color picker and multiple palettes </title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="spectrum.js" language="JavaScript"></script>
+    <script src="scripts.js" language="JavaScript"></script>
+    <link rel='stylesheet' href='spectrum.css'/>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" id="gform_1" action="/instant-quote/">
+    <div class="gform_body">
+        <ul id="gform_fields_1">
+            <li id="field_1_5" class="gfield  gsection"><h2 class="gsection_title">SELECT GARMENT STYLE AND COLOR</h2>
+            </li>
+            <li id="field_1_22" class="gfield gfield_contains_required">
+                <label class="gfield_label" for="input_1_22">Garment Style<span class="gfield_required">*</span></label>
+
+                <div class="ginput_container"><select name="input_22" id="input_1_22"
+                                                      class="medium gfield_select" tabindex="1">
+                    <option value="0">Gildan Cotton T-Shirt</option>
+                    <option value="2">Gildan Youth Cotton T-Shirt</option>
+                    <option value="1">Gildan Hooded Sweatshirt</option>
+                    <option value="3">Gildan Youth Hooded Sweatshirt</option>
+                    <option value="4">Expert Performance Technical T-Shirt</option>
+                    <option value="5">Expert Performance Youth Technical T-Shirt</option>
+                </select></div>
+            </li>
+            <li id="field_1_21" class="gfield    gf_left_half           gfield_contains_required">
+                <input name="input_21" id="input_1_21" type="text" value="" class="small" tabindex="2"
+                       style="display: none;">
+        </ul>
+    </div>
+</form>
+</body>
+</html>
